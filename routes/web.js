@@ -14,7 +14,7 @@ router.use('*', (req, res, next) => {
     return next()
 })
 
-// Routes of views to the Basic CRUD
+// Routes of views to the Basic Example CRUD
 router.use('/subscribers', subscribers)
 
 module.exports = router
