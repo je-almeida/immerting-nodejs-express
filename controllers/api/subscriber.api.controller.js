@@ -1,5 +1,5 @@
 // import model
-const Subscriber = require('../models/subscriber.model');
+const Subscriber = require('../../models/subscriber.model');
 
 /**
  * Get Collection of object

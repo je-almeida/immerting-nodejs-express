@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const routerApi = require('./api')
-const routerWeb = require('./web')
+const routerApi = require('./routes.api')
+const routerWeb = require('./routes.web')
 
 // for domain.com.br/api/*
 router.use('/api', routerApi)
